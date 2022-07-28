@@ -17,21 +17,5 @@
 
 .carousel-item img {
     height: 70vh;
-}
-
-.carousel-item.student-feadback::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #ffffff;
-    opacity: 0.7;
-}
-
-.fa-star,
-.fa-star-half-stroke {
-    color: gold;
+    object-fit: cover;
 }
